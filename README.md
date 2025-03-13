@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-My first full-stack website.This is a quiz website where users can select their favorite subject, take quizzes, and get their scores calculated automatically. The website also includes an admin panel where administrators can add and update questions.
+My first full-stack website(25/08/2024).This is a quiz website where users can select their favorite subject, take quizzes, and get their scores calculated automatically. The website also includes an admin panel where administrators can add and update questions.
 
 ## 🚀 Features
 
