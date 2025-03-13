@@ -1,0 +1,136 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9f972;
+    border-radius: 10px;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+}
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    background: #f9f9f9;
+    padding: 10px 0;
+    z-index: 10;
+}
+.quiz-header h2 {
+    font-size: 22px;
+    color: #333;
+}
+.add-question-btn {
+    display: flex;
+    align-items: center;
+    background: #28a745;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.add-question-btn svg {
+    margin-right: 5px;
+}
+
+/* Alert Box */
+.alert {
+    padding: 10px;
+    background: #d4edda;
+    color: #155724;
+    border-left: 5px solid #28a745;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.quiz-questions {
+    flex-grow: 1; 
+    overflow-y: auto;
+    max-height: 70vh; 
+    padding-right: 10px;
+}
+.quiz-questions::-webkit-scrollbar {
+    width: 8px;
+}
+
+.quiz-questions::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.quiz-questions::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.quiz-questions::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.quiz-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+.quiz-question {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+.quiz-choices {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quiz-choice {
+    background: #e9ecef;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.correct-answer {
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.quiz-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.edit-btn, .delete-btn {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.edit-btn {
+    background: #ffc107;
+    color: white;
+    margin-right: 8px;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.edit-btn svg, .delete-btn svg {
+    margin-right: 5px;
+}
+.loading-text {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
